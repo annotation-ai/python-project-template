@@ -6,7 +6,7 @@ black  # coding style
 
 # linter
 pylint  # python static code analysis
-mypy  # type annotation
+mypy  # type check
 flake8  # PyFlakes + pycodestyle + Ned Batchelder’s McCabe script
 flake8-docstrings  # pydocstyle tool to flake8
 flake8-annotations  # PEP 3107-style function annotations
@@ -14,7 +14,7 @@ flake8-builtins  # check python builtins being used as variables or parameters
 flake8-bugbear  # find likely bugs and design problems
 flake8-spellcheck  # spellcheck variables, functions, classes and others
 
-# unit test
+# pytest for linting and unit test
 pytest
 pytest-pylint
 pytest-flake8
