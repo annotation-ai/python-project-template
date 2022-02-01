@@ -16,5 +16,7 @@ lint:
 	pytest src --flake8 --pylint --mypy
 
 utest:
-	PYTHONPATH=src pytest test/utest --cov=src --cov-report=html --cov-report=term --cov-config=setup.cfg || true
+	PYTHONPATH=src pytest test/utest --cov=src --cov-report=html --cov-report=term --cov-config=setup.cfg
+
+cov:
 	open htmlcov/index.html
