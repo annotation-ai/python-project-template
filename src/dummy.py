@@ -1,5 +1,11 @@
 """Dummy script for python-project-template."""
 
+import logging
+import logging.config
+
+logging.config.fileConfig("logging.conf")
+logger = logging.getLogger()
+
 
 def fibonacci(num: int) -> int:
     """Return fibonacci number."""
@@ -10,6 +16,9 @@ def fibonacci(num: int) -> int:
     return prev
 
 
-def no_cover() -> None:  # pragma: no cover
-    """Do not cover this function."""
-    return
+if __name__ == "__main__":  # pragma: no cover
+    logger.critical("Critical Msg")
+    logger.error("Error Msg")
+    logger.warning("Warning Msg")
+    logger.info("Info Msg")
+    logger.debug("Debug Msg")
