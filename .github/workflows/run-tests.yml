@@ -16,7 +16,6 @@ jobs:
     - uses: conda-incubator/setup-miniconda@v2
       with:
         python-version: 3.8
-        channels: conda-forge
 
     - run: make setup
     - run: conda info
@@ -35,7 +34,6 @@ jobs:
     - uses: conda-incubator/setup-miniconda@v2
       with:
         python-version: 3.8
-        channels: conda-forge
 
     - run: make setup
     - run: conda info

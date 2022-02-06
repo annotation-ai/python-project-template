@@ -5,7 +5,7 @@ env:
 	conda create -n $(BASENAME)  python=$(PYTHON)
 
 setup:
-	conda install --file requirements.txt
+	conda install --file requirements.txt -c conda-forge
 	pre-commit install
 
 format:
