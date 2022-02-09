@@ -12,7 +12,6 @@ flake8-docstrings   == 1.6.0    # pydocstyle tool to flake8
 flake8-annotations  == 2.7.0    # PEP 3107-style function annotations
 flake8-builtins     == 1.5.3    # check python builtins being used as variables or parameters
 flake8-bugbear      == 22.1.11  # find likely bugs and design problems
-flake8-spellcheck   == 0.24.0   # spellcheck variables, functions, classes and others
 
 # pytest for linting and unit test
 pytest          == 6.2.5
