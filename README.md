@@ -1,3 +1,6 @@
+# Python Project Template
+This repository is a python template repo for internal uses of Annotation-AI.
+
 ## File Structure
 ```bash
 .
